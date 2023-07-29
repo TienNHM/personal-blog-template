@@ -1,7 +1,13 @@
 {
   "name": "personal-blog-template",
+  "description": "A personal blog template using Docusaurus v2, Algolia DocSearch, Canny, GitCus and GitHub Actions",
   "version": "1.1.1",
   "private": false,
+  "author": {
+    "email": "tiennhm.it@gmail.com",
+    "name": "Nguyen Huynh Minh Tien (TienNHM)",
+    "url": "https://github.com/TienNHM"
+  },
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
@@ -14,6 +20,28 @@
     "write-heading-ids": "docusaurus write-heading-ids",
     "typecheck": "tsc"
   },
+  "license": "MIT",
+  "keywords": [
+    "docusaurus",
+    "template",
+    "personal-blog",
+    "blog",
+    "algolia",
+    "docsearch",
+    "gitcus",
+    "github-actions",
+    "blog-template"
+  ],
+  "homepage": "https://github.com/TienNHM/personal-blog-template",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TienNHM/personal-blog-template.git"
+  },
+  "bin": {
+    "create-docs-blog": "./bin/create-docs-blog.js"
+  },
+  "publisher": "TienNHM",
+  "markdown": "github",
   "dependencies": {
     "@docusaurus/core": "2.4.1",
     "@docusaurus/plugin-ideal-image": "^2.4.1",
