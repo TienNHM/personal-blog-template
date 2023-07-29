@@ -6,9 +6,11 @@ require('dotenv').config({});
 
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+
 const logo = '/img/avatar.webp';
 const organizationName = "YourName"; // Your github username or your organization name
 const projectName = "YourName.github.io"; // your repo name, ex: docusaurus-2, this is used to generate edit project link
+const baseUrl = projectName.includes(".github.io") ? '/' : `/${projectName}`;
 const footerLinks = [
     {
         title: 'YourName',
@@ -69,7 +71,7 @@ const config = {
     url: `https://${organizationName}.github.io`,
     // Set the /<baseUrl>/ pathname under which your site is served
     // For GitHub pages deployment, it is often '/<projectName>/'
-    baseUrl: '/',
+    baseUrl: `${baseUrl}`,
 
     // GitHub pages deployment config.
     // If you aren't using GitHub pages, you don't need these.
@@ -167,12 +169,12 @@ const config = {
         /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
         ({
             // Replace with your project's social card
-            image: logo,
+            image: 'img/docusaurus-social-card.jpg',
             navbar: {
                 title: 'YourName',
                 logo: {
                     alt: 'YourName',
-                    src: logo,
+                    src: 'img/avatar.webp',
                     height: 40,
                     style: {
                         borderRadius: '50%',

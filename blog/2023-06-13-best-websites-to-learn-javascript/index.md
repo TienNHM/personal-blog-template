@@ -1,7 +1,7 @@
 ---
 slug: best-websites-to-learn-javascript
 title: Các trang web tốt nhất để học JavaScript
-authors: [YourName]
+authors: [TienNHM]
 tags: [javascript, resources, learning]
 enableComments: true # for Gisqus comments, set to true
 draft: false # set to true to hide this post from the site

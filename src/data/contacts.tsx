@@ -17,11 +17,11 @@ export const CONTACTS = {
     icon: require('@site/static/img/logo/linkedin.svg').default,
   } as Contact,
   Email: {
-    link: 'mailto:YourName.it@gmail.com',
+    link: 'mailto:tiennhm.it@gmail.com',
     icon: require('@site/static/img/logo/email.svg').default,
   } as Contact,
   Phone: {
-    link: 'tel:+84388963345',
+    link: 'tel:+84123456789',
     icon: require('@site/static/img/logo/phone.svg').default,
   } as Contact,
   Skype: {
