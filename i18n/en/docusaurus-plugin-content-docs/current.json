@@ -1,0 +1,14 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Git-Github": {
+    "message": "Git-Github",
+    "description": "The label for category Git-Github in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Git-Github.link.generated-index.description": {
+    "message": "Tổng hợp các bài viết về Git - Github.",
+    "description": "The generated-index page description for category Git-Github in sidebar tutorialSidebar"
+  }
+}
