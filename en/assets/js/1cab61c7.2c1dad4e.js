@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkcreate_docs_blog=self.webpackChunkcreate_docs_blog||[]).push([[537],{3183:e=>{e.exports=JSON.parse('{"label":"learning","permalink":"/en/blog/tags/learning","allTagsPath":"/en/blog/tags","count":2}')}}]);

@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkcreate_docs_blog=self.webpackChunkcreate_docs_blog||[]).push([[1570],{5406:e=>{e.exports=JSON.parse('{"permalink":"/blog/tags/learning","page":1,"postsPerPage":5,"totalPages":1,"totalCount":2,"blogDescription":"Your blog description","blogTitle":"Blog"}')}}]);
