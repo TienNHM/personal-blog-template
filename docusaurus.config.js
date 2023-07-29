@@ -11,11 +11,11 @@ const organizationName = "YourName"; // Your github username or your organizatio
 const projectName = "YourName.github.io"; // your repo name, ex: docusaurus-2, this is used to generate edit project link
 const footerLinks = [
     {
-        title: 'Docs',
+        title: 'YourName',
         items: [
             {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Home',
+                to: '/',
             },
         ],
     },
