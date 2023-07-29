@@ -7,8 +7,8 @@ require('dotenv').config({});
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const logo = '/img/avatar.webp';
-const organizationName = "YourName";
-const projectName = "YourName.github.io";
+const organizationName = "YourName"; // Your github username or your organization name
+const projectName = "YourName.github.io"; // your repo name, ex: docusaurus-2, this is used to generate edit project link
 const footerLinks = [
     {
         title: 'Docs',
@@ -213,6 +213,18 @@ const config = {
             },
             metadata: [
                 { name: 'keywords', content: 'YourName, blog, coding, tools, others keywords...' },
+                { name: 'description', content: 'YourName description...' },
+                { name: 'author', content: 'YourName' },
+                { name: 'title', content: 'YourName - Blog' },
+                { property: 'og:title', content: 'YourName - Blog' },
+                { property: 'og:description', content: 'YourName description...' },
+                { property: 'og:type', content: 'website' },
+                { property: 'og:image', content: logo },
+                { property: 'og:url', content: 'https://yourname.com' },
+                { name: 'twitter:card', content: 'summary_large_image' },
+                { name: 'twitter:image', content: logo },
+                { name: 'twitter:title', content: 'YourName - Blog' },
+                { name: 'twitter:description', content: 'YourName description...' },
             ],
             algolia: {
                 // The application ID provided by Algolia
